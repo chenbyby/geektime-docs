@@ -1,0 +1,102 @@
+site_name: TonyBai · Go语言进阶课
+
+theme:
+  name: material
+
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-4
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
+
+  features:
+    - navigation.footer
+    - content.action.edit
+    - navigation.sections
+    - content.code.copy
+
+  icon:
+    edit: material/pencil
+    logo: material/console-line
+
+extra:
+  homepage:
+  version:
+    provider: mike
+
+copyright: Copyright © 2024-Present zkep
+repo_url: https://github.com/zkep/my-geektime
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+nav:
+   - index.md
+  
+   - 开篇词-从熟练到精通：开启你的Go语言进阶之旅.md
+  
+   - 01-类型系统：理解Go语言独特设计哲学的关键钥匙.md
+  
+   - 02 - Go兼容性：你的代码能在未来版本运行吗？.md
+  
+   - 03 - 值传递vs指针传递：深入Go数据操作的底层逻辑与性能考量.md
+  
+   - 04 - 数组与切片：性能、灵活与陷阱，如何做出最佳选择？.md
+  
+   - 05 - 字符串：不只是字节序列，揭秘rune、UTF-8与高效操作.md
+  
+   - 06 - Map：不仅是键值对，掌握哈希表的高效用法与并发陷阱.md
+  
+   - 07 - 函数与方法：理解Go面向对象的不同方式，何时选择其一？.md
+  
+   - 08 - 结构体与接口：掌握Go语言组合优于继承的设计哲学.md
+  
+   - 09-控制结构：for循环的进化与新语义.md
+  
+   - 10-泛型：超越interface{}，哪些场景应该优先考虑泛型？.md
+  
+   - 11 - Go并发核心：goroutine、channel与Context的最佳实践.md
+  
+   - 12 - 垃圾回收：便利≠免费，GC开销分析与优化实践.md
+  
+   - 13 - 深入Go底层：驾驭反射（Reflection）与unsafe的双刃剑.md
+  
+   - 14 - 项目布局：构建清晰、可维护Go应用的基石.md
+  
+   - 15 - 包设计：如何实践高内聚、低耦合与SOLID原则？.md
+  
+   - 16 - 并发设计：用并发思维构建Go应用的结构骨架.md
+  
+   - 17 - 接口设计：发现和定义优雅契约的艺术.md
+  
+   - 18-错误处理设计：从显式处理到错误链的最佳实践.md
+  
+   - 19 - API设计：构建用户喜爱、健壮可靠的公共接口.md
+  
+   - 20 - 实战串讲（设计篇）：设计高内聚低耦合的“短链接服务” (上).md
+  
+   - 21 - 实战串讲（设计篇）：设计高内聚低耦合的“短链接服务” (下).md
+  
+   - 22-应用骨架：从初始化、组件编排到优雅退出的最佳实践（上）.md
+  
+   - 23-应用骨架：从初始化、组件编排到优雅退出的最佳实践（下）.md
+  
+   - 24 - 核心组件：构建健壮Go服务的配置、日志与插件化方案（上）.md
+  
+   - 25 - 核心组件：构建健壮Go服务的配置、日志与插件化方案（下）.md
+  

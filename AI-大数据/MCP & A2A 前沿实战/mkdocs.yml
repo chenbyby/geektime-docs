@@ -1,0 +1,88 @@
+site_name: MCP & A2A 前沿实战
+
+theme:
+  name: material
+
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-4
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
+
+  features:
+    - navigation.footer
+    - content.action.edit
+    - navigation.sections
+    - content.code.copy
+
+  icon:
+    edit: material/pencil
+    logo: material/console-line
+
+extra:
+  homepage:
+  version:
+    provider: mike
+
+copyright: Copyright © 2024-Present zkep
+repo_url: https://github.com/zkep/my-geektime
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+nav:
+   - index.md
+  
+   - 开篇词-浪潮拐点——为何MCP与A2A诞生在此时此刻？.md
+  
+   - 直播回放-MCP &A2A 协议如何解决智能体开发痛点？.md
+  
+   - 01-开箱即用：MCP是LLM开发范式的增强.md
+  
+   - 02-来而有往：A2A 协议是 Agent 之间的桥梁.md
+  
+   - 03-协议实战（上）：高德地图 + MiniMax语音开发私域旅游小助手.md
+  
+   - 04-协议实战（中）：从0到1，基于MCP快速搭建RAG“医疗健康“指北”.md
+  
+   - 05-协议实战（下）：通过 A2A，你的智能体不仅能对话还可以协作！.md
+  
+   - 06-底层架构（上）：MCP 协议层（Protocol layer）详解.md
+  
+   - 07-底层架构（下）：MCP协议传输层（Transport layer）详解.md
+  
+   - 08-资源发现：为大模型提供服务器端的数据内容.md
+  
+   - 09-提示模板：预定义可复用交互Prompt和工作流.md
+  
+   - 10-工具调用：Tools让你的大模型长出三头六臂.md
+  
+   - 11-人在环路：通过Sampling机制实现人机互动.md
+  
+   - 12-风云际会：智能体6大开发框架之选型比较.md
+  
+   - 13-智能画师：用CrewAI和A2A创建绘画智能体.md
+  
+   - 14-财务助手：用LangGraph和A2A实现货币兑换Agent.md
+  
+   - 15-知识检索：通过LlamaIndex和A2A实现文件聊天Agent.md
+  
+   - 16-双剑合璧：MCP和A2A联合构建智能Agents系统.md
+  
+   - 更新安排预告&留言问答精选.md
+  
